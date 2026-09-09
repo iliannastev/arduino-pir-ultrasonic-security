@@ -1,0 +1,37 @@
+## Wiring Diagram (Connections)
+
+### LCD Display (I2C Adapter)
+| LCD Pin | Arduino Pin |
+|---------|-------------|
+| SDA     | A4          |
+| SCL     | A5          |
+| VCC     | 5V          |
+| GND     | GND         |
+
+### Ultrasonic Sensor HC‑SR04
+| HC‑SR04 Pin | Arduino Pin |
+|-------------|-------------|
+| VCC         | 5V          |
+| GND         | GND         |
+| Trig        | 9           |
+| Echo        | 10          |
+
+### Buzzer
+| Buzzer Pin | Arduino Pin |
+|------------|-------------|
+| Positive (+) | 11         |
+| Negative (-) | GND        |
+
+### IR Receiver
+| IR Receiver Pin | Arduino Pin |
+|-----------------|-------------|
+| VCC             | 5V          |
+| GND             | GND         |
+| Signal          | 12          |
+
+### PIR Sensor
+| PIR Pin | Arduino Pin |
+|---------|-------------|
+| VCC     | 5V          |
+| GND     | GND         |
+| OUT     | 8           |
